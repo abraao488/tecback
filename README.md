@@ -37,25 +37,6 @@ Este repositório contém o desenvolvimento de uma **API RESTful completa para g
 
 ---
 
-## 📁 Estrutura do Projeto
-
-```
-src/
-├── main/
-│   ├── java/com/uniesp/funcionario/
-│   │   ├── controller/       # Controladores REST
-│   │   ├── service/          # Regras de negócio
-│   │   ├── repository/       # Camada de dados
-│   │   ├── model/            # Entidades/JPA
-│   │   └── exception/        # Tratamento de erros
-│   └── resources/
-│       ├── application.properties
-│       └── data.sql
-└── test/                     # Testes unitários
-```
-
----
-
 ## 🚀 Como Executar
 
 ### 📋 Pré-requisitos
@@ -77,24 +58,3 @@ mvnw.cmd spring-boot:run      # Windows
 
 # 4. Acesse a API no navegador ou Postman
 http://localhost:8080/api/funcionarios
-```
-
-### 💡 Console H2
-Acesse o banco de dados em:
-```
-http://localhost:8080/h2-console
-JDBC URL: jdbc:h2:mem:funcionarios
-Usuário: sa
-Senha: (deixe em branco)
-```
-
----
-
-## 📝 Endpoints da API
-
-| Método   | Endpoint                  | Descrição                  |
-|----------|---------------------------|----------------------------|
-| `POST`   | `/api/funcionarios`       | Criar novo funcionário     |
-| `GET`    | `/api/funcionarios`       | Listar todos               |
-| `GET`    | `/api/funcionarios/{id}`  | Buscar por ID              |
-| `PUT`    | `/api/funcionarios/{
