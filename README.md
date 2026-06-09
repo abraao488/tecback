@@ -58,3 +58,10 @@ mvnw.cmd spring-boot:run      # Windows
 
 # 4. Acesse a API no navegador ou Postman
 http://localhost:8080/api/funcionarios
+
+grupo:
+abraão
+joalis
+gustavo
+emmanuel
+
