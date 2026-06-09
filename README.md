@@ -19,6 +19,7 @@ joalis
 gustavo
 emmanuel
 ---
+
 ## ✨ Funcionalidades
 - 📝 **Cadastro de Funcionários**: Criação de novos registros com validação de dados
 - 👁️ **Listagem**: Consulta de todos os funcionários ou por ID
