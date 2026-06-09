@@ -14,10 +14,10 @@ Este repositório contém o desenvolvimento de uma **API RESTful completa para g
 
 ---
 grupo:
-abraão
-joalis
-gustavo
-emmanuel
+1. Abraão
+2. Joalis
+3. Gustavo
+4. Emmanuel
 ---
 
 ## ✨ Funcionalidades
